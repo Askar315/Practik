@@ -43,9 +43,9 @@ namespace Practika_1_3
 
                 Console.WriteLine("Отформатированном вид:");
 
-                Console.WriteLine("X:" + q.Substring(0, q.IndexOf(",")) + " Y:" + q.Substring(q.IndexOf(",")), q.Length - q.IndexOf(","));
-                Console.WriteLine("X:" + w.Substring(0, w.IndexOf(",")) + " Y:" + w.Substring(w.IndexOf(",")), w.Length - w.IndexOf(","));
-                Console.WriteLine("X:" + e.Substring(0, e.IndexOf(",")) + " Y:" + e.Substring(e.IndexOf(",")), e.Length - e.IndexOf(","));
+                Console.WriteLine("X:" + q.Substring(0, q.IndexOf(",")) + " Y:" + q.Substring(q.IndexOf(",")));
+                Console.WriteLine("X:" + w.Substring(0, w.IndexOf(",")) + " Y:" + w.Substring(w.IndexOf(",")));
+                Console.WriteLine("X:" + e.Substring(0, e.IndexOf(",")) + " Y:" + e.Substring(e.IndexOf(",")));
             }
             else if (NO == x)
             {
