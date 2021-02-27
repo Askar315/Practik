@@ -20,7 +20,7 @@ namespace Practika_1_3
                 if (text != null)
                 {
                     // вывод отформатированном вида
-                    Console.WriteLine("X:" + text.Substring(0, text.IndexOf(',')) + " Y:" + text.Substring(text.IndexOf(',')) + 1, text.Length - text.IndexOf(','));
+                    Console.WriteLine("X:" + text.Substring(0, text.IndexOf(',')) + " Y:" + text.Substring(text.IndexOf(',')));
 
                 }
 
